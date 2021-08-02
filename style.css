@@ -112,6 +112,7 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar .menu li a{
     display: block;
@@ -127,6 +128,43 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+
+
+/*Contato*/
+.navbar .menu-contato li{
+  list-style: none;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar .menu-contato li a{
+  display: inline-block;
+  background: #daa520;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  padding: 4px 18px;
+  margin-top: 0px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid #daa520;
+  transition: all 0.3s ease;
+}
+.navbar .menu-contato li a:hover{
+  color: #045FB4;
+  background: none;
+}
+.navbar.sticky .menu-contato li a:hover{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 /* Estilo de menu BTN */
 .menu-btn{
@@ -982,7 +1020,7 @@ ol, ul {/* Retira tópicos do depoimento */
 }
 
 .contato .title:after{
-    content: "Venha e marque um bate-papo comigo!";
+    content: "Vamos trocar experiências?";
     color: #045FB4;
     background: #111;
 }
